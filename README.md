@@ -23,9 +23,10 @@ This desktop application processes car configurations from an entry_list.ini fil
 To compile the application yourself:
 
 1. Clone the repository.
-2. Run `npm install` and `npm run build`
-3. Go to the newly created `dist` folder in the directory.
-4. Run `AC Config Helper Setup 1.0.0.exe`.
+2. Go into the directory by doing `cd ac-config-helper`
+3. Run `npm install` and `npm run build`
+4. Go to the newly created `dist` folder in the directory.
+5. Run the `AC Config Helper Setup 1.0.0.exe` file.
 
 Enjoy :)
 
