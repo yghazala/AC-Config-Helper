@@ -1,0 +1,30 @@
+{
+    "name": "ac-config-helper",
+    "version": "1.0.0",
+    "description": "A desktop app to process car configurations",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-builder"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "electron": "^13.0.0",
+      "electron-builder": "^22.11.7"
+    },
+    "build": {
+      "appId": "com.yghazala.aqconfighelper",
+      "productName": "AC Config Helper",
+      "win": {
+        "target": "nsis"
+      },
+      "mac": {
+        "target": "dmg"
+      },
+      "linux": {
+        "target": "AppImage"
+      }
+    }
+  }
+  
+  
